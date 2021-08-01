@@ -19,7 +19,7 @@ services:
     hostname: freshrss-app
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "4040:80"
     depends_on:
       - freshrss-db
     volumes:
